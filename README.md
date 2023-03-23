@@ -30,10 +30,10 @@ git clone https://github.com/RodrigoFSouza/estoque-simples-swing.git
 ```
 cd estoque-simples-swing
 ```
-4. Acesse a pasta script e execute no banco `criacao_tabelas.sql` no banco de dados criado no passo 1. 
-O script está localizado em `src/main/resources/script/criacao_tabelas.sql
+4. Acesse a pasta script e execute no banco `criacao_tabelas.sql` no banco de dados criado no passo 1.
+
 ```
-psql -d estoque_simples_swing -f src/main/resources/script/criacao_tabelas.sql
+psql -d estoque_simples_swing -f criacao_tabelas.sql
 ```
 
 5. Compile o projeto com o Maven:
